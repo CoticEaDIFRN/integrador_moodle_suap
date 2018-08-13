@@ -44,3 +44,17 @@ O banco de dados deve ser um pouco modificado, com a adição das seguintes colu
 
 Fim
 ============
+
+Categories
+
+1. Campus (sigla) [EAD]
+   1. Modalidade (????) [TSUB?]
+     1. Curso (código) [15121]
+        1. Oferta (ano.semestre) [2018.2]
+           1. *Turma (código: anosemestre.periodo.curso.turma) [20182.4.15121.1E]
+
+Courses
+
+1. Diário (código: anosemestre.periodo.curso.turma.modalidade.componente) [20182.4.15121.1E.TSUB.0025]
+   1. Enrollment [função no diário][Aluno, professor, tutor, etc..]
+   2. Group (Nome do pólo) [Natal]
